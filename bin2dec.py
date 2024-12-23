@@ -6,7 +6,7 @@
 nonBin = ['2', '3', '4', '5', '6', '7', '8', '9']
 while True:
     # initialize variables
-    temp = 0
+    dec = 0
     i = 0
     bin = input("Enter a binary number (X to quit): ")
     
@@ -41,9 +41,11 @@ while True:
                   #  1   * 2 ** 1 = 2
                   #  1   * 2 ** 2 = 4...
             # this is where the actual conversion takes place
-            temp += digit * 2 ** i
+            dec += digit * 2 ** i
             # iterate i for the next digit
             i += 1
+
+        print(bin, "to decimal =", dec)
     
     
 
