@@ -42,7 +42,6 @@ while True:
                   #  1   * 2 ** 2 = 4...
             # this is where the actual conversion takes place
             temp += digit * 2 ** i
-            print(temp)
             # iterate i for the next digit
             i += 1
     
