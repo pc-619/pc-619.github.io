@@ -1,3 +1,7 @@
+### PNAME: Binary-to-Decimal Converter
+### DESCRIPTION: Simple binary to decimal converting program written in Python.
+### DATE: 2024-12-23
+
 # "blacklist" list for any digits that cannot be in a binary value
 nonBin = ['2', '3', '4', '5', '6', '7', '8', '9']
 while True:
