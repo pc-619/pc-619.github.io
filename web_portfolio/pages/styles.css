@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: blue;
+    background-image: url('../images/blueprint.png');
+    height: 150px;
+}
+
+header h1{
+    font-family: 'Rock Salt', Georgia, 'Times New Roman', Times, serif;
+    color: #FFF;
+    margin: 0;
+    padding: 37px;
+}
+
+main nav{
+    padding: 10px 50px;
+}
+
+section#intro{
+    margin: 10px 100px;
+}
