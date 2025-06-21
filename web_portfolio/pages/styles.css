@@ -1,10 +1,26 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 body{
     margin: 0;
     padding: 0;
 }
 
+/**************************
+    TEXT STYLES
+**************************/
+
+p{
+    padding: 5px 15px;
+}
+
+/**************************
+    HEADER
+**************************/
+
 header{
-    background-color: blue;
+    background-color: #003153;
     background-image: url('../images/blueprint.png');
     height: 150px;
 }
@@ -16,10 +32,65 @@ header h1{
     padding: 37px;
 }
 
+/**************************
+    NAVIGATION BAR
+**************************/
+
 main nav{
     padding: 10px 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;;
 }
 
-section#intro{
-    margin: 10px 100px;
+/**************************
+    NEWSBAR
+**************************/
+div#newsbar{
+    transform: rotate(-2deg);
+    background-color: beige;
+    background-image: url('../images/postit.png');
+    border: 1px solid black;
+    margin: 20px;
+    max-height: 400px;
+    max-width: 300px;
+    float: left;
+    z-index: 1000;
 }
+
+div#newsbar ul{
+    margin: 0;
+    padding: 33px 0 0 0;
+}
+
+div#newsbar ul li{
+    padding: 10px;
+    line-height: .9;
+    list-style: none;
+    text-align: center;
+}
+
+div#newsbar ul li:not(:last-child){
+    padding: 10px;
+    /*border-bottom: 1px solid blue;*/
+    line-height: 1.40;
+    text-align: left;
+}
+
+/**************************
+    MAIN CONTENT - INTRO
+**************************/
+
+section{
+    padding: 10px 100px;
+}
+
+/**************************
+    MAIN CONTENT - OPTIONS
+**************************/
+
+section#options-content button{
+    margin: auto;
+}
+
+/**************************
+    FOOTER
+**************************/
