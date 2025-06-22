@@ -48,7 +48,7 @@ div#newsbar{
     transform: rotate(-2deg);
     background-color: beige;
     background-image: url('../images/postit.png');
-    border: 1px solid black;
+    border: 1px solid #A99B55;
     margin: 20px;
     max-height: 400px;
     max-width: 300px;
