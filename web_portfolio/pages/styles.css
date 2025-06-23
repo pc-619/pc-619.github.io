@@ -33,12 +33,21 @@ header h1{
 }
 
 /**************************
+    MAIN
+**************************/
+
+main{
+    background-color: #DEB887;
+}
+
+/**************************
     NAVIGATION BAR
 **************************/
 
 main nav{
+    background: linear-gradient(0deg, #DEB887 50%, #575757 100%);
     padding: 10px 50px;
-    font-family: Georgia, 'Times New Roman', Times, serif;;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 /**************************
